@@ -31,12 +31,12 @@ function  redirect_to_custom_login() {
         // }
  
         // The rest are redirected to the login page
-        $login_url = home_url( 'login' );
-        if ( ! empty( $redirect_to ) ) {
-            $login_url = add_query_arg( 'redirect_to', $redirect_to, $login_url );
-        }
+        // $login_url = home_url( 'login' );
+        // if ( ! empty( $redirect_to ) ) {
+        //     $login_url = add_query_arg( 'redirect_to', $redirect_to, $login_url );
+        // }
  
-        wp_redirect( $login_url );
+        // wp_redirect( $login_url );
         exit;
     }
 }
